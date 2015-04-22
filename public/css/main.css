@@ -18,51 +18,61 @@ body {
 .clearfix:after {
   clear: both; }
 
-#top-overlay {
-  background: rgba(0, 0, 0, 0.25) url('../img/pattern.png') repeat;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%; }
-
-#logo {
-  background: url('../img/logo.png') no-repeat;
-  position: absolute;
-  top: 20px;
-  left: 50px;
-  width: 230px;
-  height: 70px; }
-
 #top {
   width: 100%;
-  height: 700px; }
+  height: 700px;
+  position: relative; }
+  #top #top-overlay {
+    background: rgba(0, 0, 0, 0.25) url('../img/pattern.png') repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; }
 
 #navigation {
   position: fixed;
   width: 100%;
   height: 100px;
   padding: 5px 100px; }
+  #navigation #logo {
+    background: url('../img/logo.png') no-repeat;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 230px;
+    height: 70px; }
+  #navigation li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 17px 10px; }
+    #navigation li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 1px; }
+  #navigation li#special-link a {
+    background: #59717B;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 5px 15px; }
 
-#navigation li {
-  float: left;
-  list-style-type: none;
-  margin: 10px;
-  padding: 17px 7px; }
+#about {
+  width: 100%;
+  height: 400px;
+  background: #512642; }
 
-#navigation li a {
-  color: white;
-  text-decoration: none; }
+#work {
+  width: 100%;
+  height: 400px;
+  background: #507C85; }
 
-#navigation li.active a {
-  color: #243B4D; }
-
-#navigation li#special-link a {
-  background: #59717B;
-  color: white;
-  font-weight: 700;
-  border-radius: 3px;
-  padding: 5px 15px; }
+#skills {
+  width: 100%;
+  height: 900px;
+  background: #A27177; }
 
 /*
  * HTML5 Boilerplate
