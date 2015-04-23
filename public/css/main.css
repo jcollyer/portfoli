@@ -4,6 +4,9 @@ body {
   width: 100%;
   font-family: 'Roboto', sans-serif; }
 
+h1 {
+  color: white; }
+
 #top {
   width: 100%;
   height: 700px;
@@ -51,43 +54,29 @@ body {
       border-radius: 3px;
       padding: 5px 15px; }
 
-#about {
-  width: 100%;
-  height: 610px;
-  background: url('../img/speed.jpg') no-repeat; }
-
 #work {
   position: relative;
-  width: 100%;
   height: 600px;
-  background: #59717B; }
+  background: #59717B;
+  padding: 5px 30px; }
+
+#projects {
+  position: relative;
+  padding: 5px 30px;
+  height: 400px;
+  background: #444; }
 
 #skills {
   position: relative;
-  width: 100%;
-  height: 400px;
+  padding: 5px 30px;
+  height: 600px;
   background: #512642; }
 
-#hero {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  bottom: 0px; }
-  #hero .title {
-    width: 473px;
-    margin: 0 auto;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    font-weight: 300;
-    color: #ddd;
-    font-size: 40px;
-    margin-top: -60px; }
-  #hero .ipad {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 600px; }
+#about {
+  position: relative;
+  padding: 5px 30px;
+  height: 610px;
+  background: url('../img/speed.jpg') no-repeat; }
 
 .doge {
   position: absolute;
