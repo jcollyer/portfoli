@@ -69,15 +69,15 @@ h1 {
 
 #work {
   position: relative;
-  background: #ddd;
-  padding: 50px 0px 30px;;
+  background: #eee;
+  padding: 30px 20px;
   .work-history {
     width: 200px;
     margin: 0px auto;
 
   }
   .work-circle {
-    border: 1px solid #333;
+    border: 1px solid #ccc;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -96,10 +96,12 @@ h1 {
   h3 {
     padding-top: 10px;
     text-align: center;
+    color: #888;
   }
   p {
     padding-top: 10px;
     text-align: center;
+    color: #666;
   }
 }
 
@@ -115,7 +117,7 @@ h1 {
   padding: 5px 30px;
   height: 600px;
   /*background: #512642;*/
-  background: #ddd;
+  background: #eee;
 }
 
 #about {
@@ -129,6 +131,9 @@ h1 {
   background: #59717B;
   padding: 30px;
   text-align: center;
+  p {
+    color:  #333;
+  }
   a {
     color: white;
   }
@@ -137,10 +142,10 @@ h1 {
 .doge {
   position: absolute;
   margin: 0 auto;
-  width: 400px;
-  height: 600px;
-  bottom: -82px;
-  right: 120px;
+  width: 230px;
+  height: 370px;
+  bottom: -49px;
+  right: 20px;
   z-index: 1;
 }
 
