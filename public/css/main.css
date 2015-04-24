@@ -56,9 +56,31 @@ h1 {
 
 #work {
   position: relative;
-  height: 600px;
-  background: #59717B;
-  padding: 5px 30px; }
+  background: #ddd;
+  padding: 50px 0px 30px; }
+  #work .work-history {
+    width: 200px;
+    margin: 0px auto; }
+  #work .work-circle {
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 10px; }
+    #work .work-circle .work-history-logo {
+      width: 100%;
+      margin-top: 42px; }
+  #work .drop {
+    background: url('../img/drop.png') no-repeat;
+    width: 27px;
+    height: 41px;
+    margin: 10px auto 0px; }
+  #work h3 {
+    padding-top: 10px;
+    text-align: center; }
+  #work p {
+    padding-top: 10px;
+    text-align: center; }
 
 #projects {
   position: relative;
@@ -70,13 +92,21 @@ h1 {
   position: relative;
   padding: 5px 30px;
   height: 600px;
-  background: #512642; }
+  /*background: #512642;*/
+  background: #ddd; }
 
 #about {
   position: relative;
   padding: 5px 30px;
   height: 610px;
   background: url('../img/speed.jpg') no-repeat; }
+
+.bar {
+  background: #59717B;
+  padding: 30px;
+  text-align: center; }
+  .bar a {
+    color: white; }
 
 .doge {
   position: absolute;
