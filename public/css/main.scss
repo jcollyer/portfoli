@@ -9,6 +9,21 @@ h1 {
   color: white;
 }
 
+h3 {
+  text-align: center;
+}
+
+h6 {
+  color: rgba(77, 103, 138, 0.17);
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  position: absolute;
+  font-size: 160px;
+  top: -60px;
+  left: 30px;
+}
+
 #top {
   width: 100%;
   height: 700px;
@@ -49,7 +64,7 @@ h1 {
   li {
     float: left;
     list-style-type: none;
-    margin: 10px;
+    margin: 5px 10px;
     padding: 17px 10px;
     a {
       color: white;
@@ -58,11 +73,12 @@ h1 {
       letter-spacing: 1px;
     }
     a.special {
-      background: #59717B;
+      background: rgba(77, 103, 138, 0.57);
       color: white;
       font-weight: 700;
       border-radius: 3px;
-      padding: 5px 15px;
+      padding: 5px 25px;
+      border: 1px solid rgb(77, 103, 138);
     }
   }
 }
@@ -114,10 +130,47 @@ h1 {
 
 #skills {
   position: relative;
-  padding: 5px 30px;
-  height: 600px;
+  padding: 30px 20px 40px;
+  background: #d5d5d5;
+  .skill {
+    position: relative;
+    margin: 40px auto 10px;
+    width: 140px;
+    i {
+      color: rgba(77, 103, 138, 1);
+      font-size: 140px;
+    }
+  }
+}
+
+#tools {
+  position: relative;
+  padding: 30px 20px 40px;
   /*background: #512642;*/
   background: #eee;
+  .tool-circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 60px auto 30px;
+    background: #4d678a;
+  }
+  p {
+    text-align: center;
+    margin: 20px 0px 40px;
+    color: #eee;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .line {
+    width: 1px;
+    background: #ccc;
+    height: 100%;
+    position: absolute;
+    top: 24%;
+    right: -50px;
+  }
 }
 
 #about {
@@ -128,14 +181,15 @@ h1 {
 }
 
 .bar {
-  background: #59717B;
+  /*background: #59717B;*/
+  background: #3E4246;
   padding: 30px;
   text-align: center;
   p {
-    color:  #333;
+    color: white;
   }
   a {
-    color: white;
+    color: #66d7ff;
   }
 }
 
