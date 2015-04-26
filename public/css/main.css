@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Trykker);
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -13,22 +14,7 @@ h6 {
   position: absolute;
   font-size: 30px;
   top: -10px;
-  left: 30px; }
-
-#top {
-  background-image: url('../img/lavender.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 100%;
-  height: 700px;
-  position: relative; }
-  #top #top-overlay {
-    background: rgba(0, 0, 0, 0.25) url('../img/pattern.png') repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%; }
+  left: 23%; }
 
 #navigation.plus {
   background: rgba(255, 255, 255, 0.75); }
@@ -65,6 +51,25 @@ h6 {
       border-radius: 3px;
       padding: 5px 25px;
       border: 1px solid #4d678a; }
+
+#top {
+  background-image: url('../img/lavender.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 700px;
+  position: relative; }
+  #top #top-overlay {
+    background: rgba(0, 0, 0, 0.25) url('../img/pattern.png') repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; }
+  #top #ss {
+    position: absolute;
+    bottom: 0px;
+    right: 10%; }
 
 #work {
   position: relative;
@@ -113,7 +118,7 @@ h6 {
 
 #tools {
   position: relative;
-  padding: 30px 20px 40px;
+  padding: 70px 20px 40px;
   /*background: #512642;*/
   background: #eee; }
   #tools .tool-circle {
@@ -161,6 +166,7 @@ h6 {
     color: white; }
   .bar a {
     color: #66d7ff; }
+
 
 /*
  * HTML5 Boilerplate
