@@ -1,7 +1,4 @@
 body {
-  background-image: url('../img/lavender.jpg');
-  background-repeat: no-repeat;
-  width: 100%;
   font-family: 'Roboto', sans-serif; }
 
 h1 {
@@ -11,16 +8,17 @@ h3 {
   text-align: center; }
 
 h6 {
-  color: rgba(77, 103, 138, 0.17);
-  font-size: 20px;
   text-align: center;
   margin: 0px;
   position: absolute;
-  font-size: 160px;
-  top: -60px;
+  font-size: 30px;
+  top: -10px;
   left: 30px; }
 
 #top {
+  background-image: url('../img/lavender.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   width: 100%;
   height: 700px;
   position: relative; }
@@ -86,8 +84,8 @@ h6 {
       margin-top: 42px; }
   #work .drop {
     background: url('../img/drop.png') no-repeat;
-    width: 27px;
-    height: 41px;
+    width: 31px;
+    height: 44px;
     margin: 10px auto 0px; }
   #work h3 {
     padding-top: 10px;
@@ -97,12 +95,6 @@ h6 {
     padding-top: 10px;
     text-align: center;
     color: #666; }
-
-#projects {
-  position: relative;
-  padding: 5px 30px;
-  height: 400px;
-  background: #444; }
 
 #skills {
   position: relative;
@@ -122,6 +114,7 @@ h6 {
   /*background: #512642;*/
   background: #eee; }
   #tools .tool-circle {
+    display: none;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -135,12 +128,20 @@ h6 {
     font-size: 20px;
     line-height: 1.5em; }
   #tools .line {
+    display: none;
     width: 1px;
     background: #ccc;
     height: 100%;
     position: absolute;
     top: 24%;
     right: -50px; }
+
+#projects {
+  background: url('http://rossmc.co/images/backgrounds/work_bg.gif') no-repeat;
+  background-position: 0px -500px;
+  position: relative;
+  padding: 5px 30px;
+  height: 400px; }
 
 #about {
   position: relative;
@@ -157,15 +158,6 @@ h6 {
     color: white; }
   .bar a {
     color: #66d7ff; }
-
-.doge {
-  position: absolute;
-  margin: 0 auto;
-  width: 230px;
-  height: 370px;
-  bottom: -49px;
-  right: 20px;
-  z-index: 1; }
 
 /*
  * HTML5 Boilerplate
