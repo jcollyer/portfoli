@@ -7,14 +7,6 @@ h1 {
 h3 {
   text-align: center; }
 
-h6 {
-  text-align: center;
-  margin: 0px;
-  position: absolute;
-  font-size: 30px;
-  top: -10px;
-  left: 23%; }
-
 #navigation.plus {
   background: rgba(255, 255, 255, 0.75); }
   #navigation.plus li a {
@@ -51,6 +43,14 @@ h6 {
       padding: 5px 25px;
       border: 1px solid #4d678a; }
 
+#overlay {
+  background: rgba(0, 0, 0, 0.35) url('../img/pattern.png') repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
 #top {
   background-image: url('../img/lavender.jpg');
   background-repeat: no-repeat;
@@ -58,13 +58,6 @@ h6 {
   width: 100%;
   height: 700px;
   position: relative; }
-  #top #top-overlay {
-    background: rgba(0, 0, 0, 0.25) url('../img/pattern.png') repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%; }
   #top #top-text {
     position: absolute;
     left: 10%;
@@ -80,7 +73,7 @@ h6 {
 #work {
   position: relative;
   background: #eee;
-  padding: 30px 20px; }
+  padding: 0px 20px 70px; }
   #work .work-history {
     width: 200px;
     margin: 0px auto; }
@@ -109,7 +102,7 @@ h6 {
 
 #skills {
   position: relative;
-  padding: 30px 20px 40px;
+  padding: 40px 20px 80px;
   background: #d5d5d5; }
   #skills .skill {
     position: relative;
@@ -124,7 +117,7 @@ h6 {
 
 #tools {
   position: relative;
-  padding: 70px 20px 40px;
+  padding: 70px 20px 80px;
   /*background: #512642;*/
   background: #eee; }
   #tools .tool-circle {
@@ -151,10 +144,10 @@ h6 {
     right: -50px; }
 
 #projects {
-  background: url('http://rossmc.co/images/backgrounds/work_bg.gif') no-repeat;
-  background-position: 0px -500px;
+  background: url('../img/work-bg.jpg') no-repeat;
+  background-size: 100% auto;
   position: relative;
-  padding: 50px 30px;
+  padding: 90px 30px;
   text-align: center; }
   #projects .project-item img {
     width: 100%;
