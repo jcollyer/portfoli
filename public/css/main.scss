@@ -126,11 +126,15 @@ h6 {
   .skill {
     position: relative;
     margin: 40px auto 10px;
-    width: 140px;
+    width: 100px;
     i {
       color: rgba(77, 103, 138, 1);
-      font-size: 140px;
+      font-size: 100px;
     }
+  }
+  p {
+    padding: 0px 100px;
+    text-align: center;
   }
 }
 

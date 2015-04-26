@@ -103,10 +103,13 @@ h6 {
   #skills .skill {
     position: relative;
     margin: 40px auto 10px;
-    width: 140px; }
+    width: 100px; }
     #skills .skill i {
       color: #4d678a;
-      font-size: 140px; }
+      font-size: 100px; }
+  #skills p {
+    padding: 0px 100px;
+    text-align: center; }
 
 #tools {
   position: relative;
