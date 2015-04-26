@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Trykker);
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -66,6 +65,13 @@ h6 {
     left: 0px;
     width: 100%;
     height: 100%; }
+  #top #top-text {
+    position: absolute;
+    left: 10%;
+    top: 320px;
+    font-size: 40px;
+    width: 30%;
+    color: rgba(255, 255, 255, 0.6); }
   #top #ss {
     position: absolute;
     bottom: 0px;
@@ -148,8 +154,11 @@ h6 {
   background: url('http://rossmc.co/images/backgrounds/work_bg.gif') no-repeat;
   background-position: 0px -500px;
   position: relative;
-  padding: 5px 30px;
-  height: 400px; }
+  padding: 50px 30px;
+  text-align: center; }
+  #projects .project-item img {
+    width: 100%;
+    padding: 20px 30px 10px; }
 
 #about {
   position: relative;
@@ -166,7 +175,6 @@ h6 {
     color: white; }
   .bar a {
     color: #66d7ff; }
-
 
 /*
  * HTML5 Boilerplate
