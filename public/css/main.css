@@ -1,11 +1,24 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
 
 h1 {
   color: white; }
 
 h3 {
-  text-align: center; }
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  color: #4d678a; }
+
+.hh1 {
+  font-size: 60px; }
+
+.hh2 {
+  font-size: 45px; }
+
+.hh3 {
+  font-size: 35px; }
 
 a.special, #contact-area input.special {
   background: rgba(77, 103, 138, 0.57);
@@ -61,8 +74,8 @@ a.special, #contact-area input.special {
   #top #top-text {
     position: absolute;
     left: 10%;
-    top: 320px;
-    font-size: 40px;
+    bottom: 130px;
+    font-size: 24px;
     width: 30%;
     color: rgba(255, 255, 255, 0.6); }
   #top #ss {
@@ -96,9 +109,10 @@ a.special, #contact-area input.special {
     text-align: center;
     color: #888; }
   #work p {
-    padding-top: 10px;
+    padding: 10px 30px;
     text-align: center;
-    color: #666; }
+    color: #666;
+    font-size: 24px; }
 
 #skills {
   position: relative;
@@ -112,8 +126,10 @@ a.special, #contact-area input.special {
       color: #4d678a;
       font-size: 100px; }
   #skills p {
-    padding: 0px 100px;
-    text-align: center; }
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0px; }
 
 #tools {
   position: relative;
@@ -152,6 +168,12 @@ a.special, #contact-area input.special {
   #projects .project-item img {
     width: 100%;
     padding: 20px 30px 10px; }
+  #projects .project-item p {
+    color: white;
+    font-size: 30px;
+    margin: 0px; }
+  #projects .project-item a {
+    font-size: 18px; }
 
 #about {
   position: relative;
@@ -165,7 +187,8 @@ a.special, #contact-area input.special {
   padding: 30px;
   text-align: center; }
   .bar p {
-    color: white; }
+    color: white;
+    font-size: 16px; }
   .bar a {
     color: #66d7ff; }
 
@@ -176,11 +199,22 @@ a.special, #contact-area input.special {
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 470px;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.4em;
-  margin: 0px 0px 10px 0px;
+  font-size: 24px;
   border: none;
-  background: rgba(255, 255, 255, 0.4); }
+  background: transparent;
+  position: relative;
+  margin-top: 20px; }
+
+#contact-area p {
+  margin: 0px;
+  font-size: 40px;
+  color: white; }
+
+.text-input-line {
+  margin: 0px;
+  width: 470px;
+  height: 1px;
+  background: white; }
 
 #contact-area textarea {
   height: 90px; }
@@ -189,15 +223,19 @@ a.special, #contact-area input.special {
   background: white; }
 
 ::-webkit-input-placeholder {
-  color: white; }
+  color: white;
+  font-size: 18px; }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: white; }
+  color: white;
+  font-size: 18px; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: white; }
+  color: white;
+  font-size: 18px; }
 
 :-ms-input-placeholder {
-  color: white; }
+  color: white;
+  font-size: 18px; }

@@ -1,5 +1,6 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 h1 {
@@ -8,8 +9,20 @@ h1 {
 
 h3 {
   text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  color: #4d678a;
 }
 
+.hh1 {
+  font-size: 60px;
+}
+.hh2 {
+  font-size: 45px;
+}
+.hh3 {
+  font-size: 35px;
+}
 a.special, #contact-area input.special {
   background: rgba(77, 103, 138, 0.57);
   color: white;
@@ -74,8 +87,8 @@ a.special, #contact-area input.special {
   #top-text {
     position: absolute;
     left: 10%;
-    top: 320px;
-    font-size: 40px;
+    bottom: 130px;
+    font-size: 24px;
     width: 30%;
     color: rgba(255, 255, 255, 0.6);
   }
@@ -118,9 +131,11 @@ a.special, #contact-area input.special {
     color: #888;
   }
   p {
-    padding-top: 10px;
+    padding: 10px 30px;
     text-align: center;
     color: #666;
+    font-size: 24px;
+
   }
 }
 
@@ -138,8 +153,10 @@ a.special, #contact-area input.special {
     }
   }
   p {
-    padding: 0px 100px;
+    padding: 0px 20px;
     text-align: center;
+    font-size: 20px;
+    margin: 10px 0px;
   }
 }
 
@@ -187,6 +204,13 @@ a.special, #contact-area input.special {
       padding: 20px 30px 10px;
     }
     p {
+      color: white;
+      font-size: 30px;
+      margin: 0px;
+
+    }
+    a {
+      font-size: 18px;
     }
   }
 }
@@ -205,6 +229,8 @@ a.special, #contact-area input.special {
   text-align: center;
   p {
     color: white;
+    font-size: 16px;
+
   }
   a {
     color: #66d7ff;
@@ -212,8 +238,6 @@ a.special, #contact-area input.special {
 }
 
 //contact form
-
-
 #contact-area {
   width: 100%;
   margin-top: 25px;
@@ -222,11 +246,26 @@ a.special, #contact-area input.special {
 #contact-area input, #contact-area textarea {
   padding: 5px;
   width: 470px;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.4em;
-  margin: 0px 0px 10px 0px;
+  font-size: 24px;
   border: none;
-  background: rgba(255,255,255,0.4);
+  background: transparent;
+  position: relative;
+  margin-top: 20px;
+}
+
+#contact-area {
+  p {
+    margin: 0px;
+    font-size: 40px;
+    color: white;
+  }
+}
+
+.text-input-line {
+  margin: 0px;
+  width: 470px;
+  height: 1px;
+  background: white;
 }
 
 #contact-area textarea {
@@ -239,16 +278,20 @@ a.special, #contact-area input.special {
 
 ::-webkit-input-placeholder {
    color: white;
+   font-size: 18px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: white;
+   font-size: 18px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: white;
+   font-size: 18px;
 }
 
 :-ms-input-placeholder {
    color: white;
+   font-size: 18px;
 }
