@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Trykker);
 /* DISSOLVE  */
 /* EDIT the following values to adjust the carousel to yoru needs */
 /* width of the carousel */
@@ -7,6 +6,7 @@
 /* time during which a carousel item is fully visible */
 /* duration of the transition between two carousel items*/
 /* END EDIT */
+@import url(http://fonts.googleapis.com/css?family=Trykker);
 .dissolve {
   width: 600px;
   height: 365px;
