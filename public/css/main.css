@@ -20,17 +20,22 @@ h3 {
 .hh3 {
   font-size: 35px; }
 
-a.special, #contact-area input.special {
+#navigation li a.special, #contact-area input.special {
   background: rgba(77, 103, 138, 0.57);
   color: white;
   border-radius: 3px;
   padding: 5px 25px;
-  border: 1px solid #4d678a; }
+  border: 1px solid #4d678a;
+  font-weight: 300;
+  color: white; }
 
 #navigation.plus {
-  background: rgba(255, 255, 255, 0.75); }
+  background: white;
+  box-shadow: 0 1px 1px #999; }
   #navigation.plus li a {
     color: #666; }
+  #navigation.plus li a.special {
+    color: white; }
 
 #navigation {
   position: fixed;
@@ -48,13 +53,14 @@ a.special, #contact-area input.special {
   #navigation li {
     float: left;
     list-style-type: none;
-    margin: 5px 10px;
-    padding: 17px 10px; }
+    margin: 15px 10px;
+    padding: 15px 10px; }
     #navigation li a {
       color: white;
       text-decoration: none;
       font-size: 16px;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      font-weight: 500; }
 
 .overlay {
   background: rgba(0, 0, 0, 0.35) url('../img/pattern.png') repeat;
@@ -107,16 +113,19 @@ a.special, #contact-area input.special {
   #work h3 {
     padding-top: 10px;
     text-align: center;
-    color: #888; }
+    color: #888;
+    font-size: 30px;
+    font-weight: 300; }
   #work p {
     padding: 10px 30px;
     text-align: center;
     color: #666;
-    font-size: 24px; }
+    font-size: 24px;
+    margin: 0px; }
 
 #skills {
   position: relative;
-  padding: 40px 20px 80px;
+  padding: 40px 20px 50px;
   background: #d5d5d5; }
   #skills .skill {
     position: relative;
