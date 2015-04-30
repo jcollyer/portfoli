@@ -5,9 +5,18 @@ body {
 h1 {
   color: white; }
 
+h2 {
+  font-weight: 300;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  border-top: 1px solid #999;
+  width: 150px;
+  margin: 10px auto 30px; }
+
 h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
   margin: 0px;
   padding-top: 10px;
   color: #888;
@@ -27,8 +36,9 @@ h4 {
 .hh2 {
   font-size: 45px; }
 
-.hh3 {
-  font-size: 35px; }
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
 
 #navigation li a.special, #contact-area input.special {
   background: rgba(77, 103, 138, 0.57);
@@ -42,35 +52,33 @@ h4 {
 #navigation.plus {
   background: white;
   box-shadow: 0 1px 1px #999; }
-  #navigation.plus li a {
+  #navigation.plus #links li a {
     color: #666; }
-  #navigation.plus li a.special {
+  #navigation.plus #links li a.special {
     color: white; }
 
 #navigation {
   position: fixed;
   width: 100%;
-  height: 100px;
   padding: 5px 100px;
   transition: 300ms;
   z-index: 2; }
   #navigation #logo {
     position: absolute;
-    top: 10px;
-    left: 50px;
-    width: 230px;
-    height: 70px; }
-  #navigation li {
-    float: left;
-    list-style-type: none;
-    margin: 15px 10px;
-    padding: 15px 10px; }
-    #navigation li a {
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      letter-spacing: 1px;
-      font-weight: 500; }
+    top: 10px; }
+  #navigation #links {
+    float: right; }
+    #navigation #links li {
+      float: left;
+      list-style-type: none;
+      margin: 15px 10px;
+      padding: 15px 10px; }
+      #navigation #links li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 500; }
 
 .overlay {
   background: rgba(0, 0, 0, 0.35) url('../img/pattern.png') repeat;
@@ -85,19 +93,14 @@ h4 {
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100%;
-  height: 700px;
-  position: relative; }
+  height: 500px;
+  position: relative;
+  padding: 180px 20px 0px; }
   #top #top-text {
-    position: absolute;
-    left: 10%;
-    bottom: 130px;
     font-size: 24px;
-    width: 30%;
-    color: rgba(255, 255, 255, 0.6); }
-  #top #ss {
-    position: absolute;
-    bottom: 0px;
-    right: 10%; }
+    color: rgba(255, 255, 255, 0.7);
+    text-align: right;
+    padding-top: 40px; }
 
 #work {
   position: relative;
@@ -123,11 +126,11 @@ h4 {
 
 #skills {
   position: relative;
-  padding: 40px 20px 70px;
+  padding: 20px 20px 70px;
   background: white; }
   #skills .skill {
     position: relative;
-    margin: 40px auto 10px;
+    margin: 10px auto 0px;
     width: 100px; }
     #skills .skill i {
       color: #4d678a;
@@ -135,37 +138,20 @@ h4 {
 
 #tools {
   position: relative;
-  padding: 70px 20px 80px;
-  /*background: #512642;*/
+  padding: 20px 20px 60px;
   background: #eee; }
-  #tools .tool-circle {
-    display: none;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    padding: 10px;
-    margin: 60px auto 30px;
-    background: #4d678a; }
   #tools p {
     text-align: center;
     margin: 20px 0px 40px;
     color: #eee;
     font-size: 20px;
     line-height: 1.5em; }
-  #tools .line {
-    display: none;
-    width: 1px;
-    background: #ccc;
-    height: 100%;
-    position: absolute;
-    top: 24%;
-    right: -50px; }
 
 #projects {
-  background: url('../img/work-bg.jpg') no-repeat;
+  background: #333;
   background-size: 100% auto;
   position: relative;
-  padding: 90px 30px;
+  padding: 20px 30px 80px;
   text-align: center; }
   #projects .project-item img {
     width: 100%;
@@ -176,14 +162,7 @@ h4 {
     #projects .project-item a:hover {
       color: #337ab7; }
 
-#about {
-  position: relative;
-  padding: 35px 30px;
-  height: 680px;
-  background: url('../img/speed.jpg') no-repeat; }
-
 .bar {
-  /*background: #59717B;*/
   background: #3E4246;
   padding: 30px;
   text-align: center; }
@@ -192,51 +171,3 @@ h4 {
     font-size: 16px; }
   .bar a {
     color: #66d7ff; }
-
-#contact-area {
-  width: 100%;
-  margin-top: 25px; }
-
-#contact-area input, #contact-area textarea {
-  padding: 5px;
-  width: 470px;
-  font-size: 24px;
-  border: none;
-  background: transparent;
-  position: relative;
-  margin-top: 20px; }
-
-#contact-area p {
-  margin: 0px;
-  font-size: 40px;
-  color: white; }
-
-.text-input-line {
-  margin: 0px;
-  width: 470px;
-  height: 1px;
-  background: white; }
-
-#contact-area textarea {
-  height: 90px; }
-
-#contact-area textarea:focus, #contact-area input:focus {
-  background: white; }
-
-::-webkit-input-placeholder {
-  color: white;
-  font-size: 18px; }
-
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: white;
-  font-size: 18px; }
-
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: white;
-  font-size: 18px; }
-
-:-ms-input-placeholder {
-  color: white;
-  font-size: 18px; }

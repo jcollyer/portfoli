@@ -18,6 +18,7 @@
   left: 0;
   right: 0;
   opacity: 0;
+  width: 100%;
   -webkit-animation: dissolve 20s linear infinite;
   -moz-animation: dissolve 20s linear infinite;
   -o-animation: dissolve 20s linear infinite;
@@ -75,7 +76,6 @@
     opacity: 1; } }
 
 figure .carousel {
-  width: 600px;
-  border-top: 1px solid #777;
-  border-left: 1px solid #777;
-  border-right: 1px solid #777; }
+  width: 315px;
+  height: 192px;
+  border: 1px solid #777; }

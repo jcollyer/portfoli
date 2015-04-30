@@ -14,10 +14,10 @@
   <body>
     <div id="navigation">
       <div class="row">
-        <div class="col-md-4">
-          <a href="#top"><img src="img/logo.png" id="logo" /></a>
+        <div class="col-md-4 col-xs-12">
+          <a href="#top" style="height:80px;display:block;"><img src="img/logo.png" id="logo" /></a>
         </div>
-        <div class="col-md-4  col-md-offset-4">
+        <div class="col-md-8 col-xs-12">
           <div id="links">
             <li><a href="#top">Top</a></li>
             <li><a href="#skills-link">Skills</a></li>
@@ -30,20 +30,22 @@
 
     <div id="top">
       <div class="overlay"></div>
-      <div id="top-text">
-        I'm <span class="hh1">Jeremy</span>, i write <span class="hh2">JavaScript </span> all day. Sometimes i add <span class="hh3">HTML </span> and <span class="hh3">CSS </span> to make it pretty :)
-      </div>
-      <div id="ss">
-        <figure>
-          <div class="carousel dissolve">
-            <div class="items">
-                <img class="item" src="img/gopro-project.jpg" alt="jeremy collyer's gopro project">
-                <img class="item" src="img/nate-project.jpg" alt="jeremy collyer's nate project">
-                <img class="item" src="img/scaphon-project.jpg" alt="jeremy collyer's scaphon project">
-                <img class="item" src="img/pas-project.jpg" alt="jeremy collyer's plant a seed project">
-             </div>
-          </div>
-        </figure>
+      <div class="row">
+        <div id="top-text" class="hide-mobile col-md-6">
+          I'm Jeremy, i write JavaScript<br>all day. Sometimes i add HTML<br>and CSS to make it pretty :)
+        </div>
+        <div class="col-md-6">
+          <figure>
+            <div class="carousel dissolve">
+              <div class="items">
+                  <img class="item" src="img/gopro.jpg" alt="jeremy collyer's gopro project">
+                  <img class="item" src="img/nate.jpg" alt="jeremy collyer's nate project">
+                  <img class="item" src="img/scaphon.jpg" alt="jeremy collyer's scaphon project">
+                  <img class="item" src="img/pas.jpg" alt="jeremy collyer's plant a seed project">
+               </div>
+            </div>
+          </figure>
+        </div>
       </div>
     </div>
 
@@ -58,7 +60,7 @@
             <h3>2013-present</h3>
             <div class="drop"></div>
           </div>
-          <h4><b>Software Engineer</b> building user services using <b>SaaS</b> architecture</h4>
+          <h4><b>Software Engineer</b> building user services in a <b>SaaS</b> architecture</h4>
         </div>
         <div class="col-md-4" style="margin-top:40px;">
           <div class="work-history">
@@ -68,7 +70,7 @@
             <h3>2012-2013</h3>
             <div class="drop"></div>
           </div>
-          <h4>Client oriented <b>Web Developer</b> for big name <b>e-comerce</b> sites</h4>
+          <h4>Client oriented <b>Web Developer</b> for big name <b>e-commerce</b> sites</h4>
         </div>
         <div class="col-md-4" style="margin-top:40px;">
           <div class="work-history">
@@ -78,7 +80,7 @@
             <h3>2011-2012</h3>
             <div class="drop"></div>
           </div>
-          <h4><b>UX/UI Developer</b> designing, and building <b>interactive</b> web experiences</h4>
+          <h4><b>UX/UI Developer</b> designing and building <b>interactive</b> web experiences</h4>
         </div>
       </div>
     </div>
@@ -89,13 +91,15 @@
     </div>
 
     <div id="skills">
-      <div id="skills-link" style="position:absolute;margin-top:-140px;"></div>
+      <div id="skills-link" style="position:absolute;margin-top:-110px;"></div>
+      <h2>Skills</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="skill">
             <i class="fa fa-sitemap"></i>
           </div>
           <h3>MV* JS Framworks</h3>
+          <br>
           <h4>Using todays <b>JavaScript</b> Frameworks for production ready <b>tested</b> web applications.</h4>
         </div>
         <div class="col-md-4">
@@ -103,6 +107,7 @@
             <i class="fa fa-cogs"></i>
           </div>
           <h3>SaaS Architecture</h3>
+          <br>
           <h4>Expressive <b>API</b> creation for front-end <b>client service</b> consumption using service based architecture.</h4>
         </div>
         <div class="col-md-4">
@@ -110,74 +115,26 @@
             <i class="fa fa-edit"></i>
           </div>
           <h3>Modern Web Dev</h3>
+          <br>
           <h4>Experience writing <b>responsive</b>, mobile first <b>single page applications</b>, using a bunch of other buzz words...</h4>
         </div>
       </div>
     </div>
 
     <div id="tools">
+        <h2>Tools</h2>
       <div class="row">
-        <div class="col-md-2 col-md-offset-1">
-          <div class="tool-circle"><p>JS <b>MV*</b></p></div>
-          <img class="skills-logo" src="img/ember-logo.png" />
+        <div class="col-xs-12 col-sm-7 col-sm-offset-3 col-md-10 col-md-offset-2 col-xl-9 col-xl-offset-3">
           <img class="skills-logo" src="img/react-logo.png" />
-          <img class="skills-logo" src="img/angular-logo.png" style="margin-top:30px;" />
-          <div class="line"></div>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-          <div class="tool-circle"><p><b>Build</b> Tools</p></div>
+          <img class="skills-logo" src="img/angular-logo.png" />
           <img class="skills-logo" src="img/node-logo.png" />
+          <img class="skills-logo" src="img/ember-logo.png" />
           <img class="skills-logo" src="img/bower-logo.png" />
-          <img class="skills-logo" src="img/gulp-grunt-logo.png" />
-          <div class="line"></div>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-          <div class="tool-circle"><p>Modern <b>Web</b></p></div>
-          <img class="skills-logo" src="img/html5-css3-logo.png" />
+          <img class="skills-logo" src="img/gulp-logo.png" />
           <img class="skills-logo" src="img/sass-logo.png" />
-          <img class="skills-logo" src="img/bootstrap-logo.png" />
-          <div class="line"></div>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-          <div class="tool-circle"><p><b>back</b>-end Tools</p></div>
           <img class="skills-logo" src="img/rails-logo.png" />
           <img class="skills-logo" src="img/postgres-logo.png" />
           <img class="skills-logo" src="img/git-logo.png" />
-        </div>
-      </div>
-    </div>
-
-    <div id="projects">
-      <div id="work-link" style="position:absolute;top:-100px;"></div>
-      <div class="overlay"></div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="project-item">
-            <img src="img/gopro-project.jpg" alt="jeremy collyer's gopro project">
-            <h3 style="color:white;">GoPro Channels</h3>
-            <a href="http://gopro.com/channels">http://gopro.com/channels</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="project-item">
-            <img src="img/nate-project.jpg" alt="jeremy collyer's nate project">
-            <h3 style="color:white;">Audio App</h3>
-            <a href="http://nateholdridge.com">http://nateholdridge.com</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="project-item">
-            <img src="img/scaphon-project.jpg" alt="jeremy collyer's scaphon project">
-            <h3 style="color:white;">SCAPHON.org</h3>
-            <a href="http://www.scaphon.org">http://www.scaphon.org</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="project-item">
-            <img src="img/pas-project.jpg" alt="jeremy collyer's plant a seed project">
-            <h3 style="color:white;">Plant a Seed</h3>
-            <a href="http://pas.herokuapp.com">http://plantaseed.org</a>
-          </div>
         </div>
       </div>
     </div>
@@ -186,39 +143,44 @@
       <p>here is a link to my <a href="https://s3-us-west-2.amazonaws.com/occupation/portfolio-2015.pdf">resume</a>. you can also download it here <a href="https://s3-us-west-2.amazonaws.com/occupation/portfolio-2015.pdf" download><i class="fa fa-download" style="font-size:20px;"></i></a></p>
     </div>
 
-    <div id="about">
-      <div id="about-link" style="position:absolute;top:-100px;"></div>
+    <div id="projects">
+      <div id="work-link" style="position:absolute;top:-90px;"></div>
+      <h2 style="color:#eee;">Recent Projects</h2>
       <div class="row">
-        <div class="col-md-6">
-          <div class="hh3" style="margin-top:80px;">San Francisco based</div>
-          <div class="hh1" style="margin-left:30px;">Software Engineer</div>
-        </div>
-        <div class="col-md-5 col-md-offset-1">
-
-
-          <div id="contact-area">
-            <form method="post" action="contactengine.php">
-              <p>contact me</p>
-              <input type="text" name="Name" id="Name" placeholder="Name" />
-              <div class="text-input-line"></div>
-              <input type="text" name="Email" id="Email" placeholder="Email" />
-              <div class="text-input-line"></div>
-              <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message"></textarea>
-              <div class="text-input-line"></div>
-              <input type="submit" name="submit" value="Submit" class="special" />
-            </form>
+        <div class="col-md-3">
+          <div class="project-item">
+            <img src="img/gopro.jpg" alt="jeremy collyer's gopro project">
+            <h3>GoPro Channels</h3>
+            <a href="http://gopro.com/channels">http://gopro.com/channels</a>
           </div>
-
-
+        </div>
+        <div class="col-md-3">
+          <div class="project-item">
+            <img src="img/nate.jpg" alt="jeremy collyer's nate project">
+            <h3>Audio App</h3>
+            <a href="http://nateholdridge.com">http://nateholdridge.com</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="project-item">
+            <img src="img/scaphon.jpg" alt="jeremy collyer's scaphon project">
+            <h3>SCAPHON.org</h3>
+            <a href="http://www.scaphon.org">http://www.scaphon.org</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="project-item">
+            <img src="img/pas.jpg" alt="jeremy collyer's plant a seed project">
+            <h3>Plant a Seed</h3>
+            <a href="http://pas.herokuapp.com">http://plantaseed.org</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="bar">
+    <div class="bar" style="background:#222;">
       <p> <span style="color:#66d7ff;">&copy;</span> 2015 Jeremy Collyer</p>
     </div>
-
-
 
   </body>
   <script src="scripts/app.js"></script>
