@@ -36,10 +36,6 @@ h4 {
 .hh2 {
   font-size: 45px; }
 
-@media (max-width: 900px) {
-  .hide-mobile {
-    display: none; } }
-
 #navigation li a.special, #contact-area input.special {
   background: rgba(77, 103, 138, 0.57);
   color: white;
@@ -49,23 +45,15 @@ h4 {
   font-weight: 300;
   color: white; }
 
-#navigation.plus {
-  background: white;
-  box-shadow: 0 1px 1px #999; }
-  #navigation.plus #links li a {
-    color: #666; }
-  #navigation.plus #links li a.special {
-    color: white; }
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 80px; }
 
 #navigation {
-  position: absolute;
-  width: 100%;
+  position: relative;
   padding: 5px 100px;
-  transition: 300ms;
-  z-index: 2; }
-  #navigation #logo {
-    position: absolute;
-    top: 10px; }
+  transition: 300ms; }
   #navigation #links {
     float: right; }
     #navigation #links li {
@@ -94,12 +82,14 @@ h4 {
   width: 100%;
   height: 500px;
   position: relative;
-  padding: 180px 20px 0px; }
+  padding: 0px 20px 0px; }
+  #top #space {
+    height: 80px; }
   #top #top-text {
     font-size: 24px;
     color: rgba(255, 255, 255, 0.7);
     text-align: right;
-    padding-top: 40px; }
+    padding: 40px 0px 30px; }
 
 #work {
   position: relative;
@@ -152,14 +142,17 @@ h4 {
   position: relative;
   padding: 20px 30px 80px;
   text-align: center; }
-  #projects .project-item img {
-    width: 100%;
-    padding: 20px 30px 10px; }
-  #projects .project-item a {
-    font-size: 18px;
-    color: #66d7ff; }
-    #projects .project-item a:hover {
-      color: #337ab7; }
+  #projects .project-item {
+    max-width: 400px;
+    margin: 0 auto; }
+    #projects .project-item img {
+      width: 100%;
+      padding: 20px 30px 10px; }
+    #projects .project-item a {
+      font-size: 18px;
+      color: #66d7ff; }
+      #projects .project-item a:hover {
+        color: #337ab7; }
 
 .bar {
   background: #3E4246;
@@ -170,3 +163,30 @@ h4 {
     font-size: 16px; }
   .bar a {
     color: #66d7ff; }
+
+@media (max-width: 992px) {
+  #top {
+    height: 460px; }
+    #top #top-text {
+      color: white;
+      font-size: 20px;
+      text-align: center; }
+    #top #space {
+      height: 80px; }
+  #navigation {
+    padding: 5px 0px; }
+  #logo {
+    left: 20px; }
+  .carousel {
+    margin: 0px auto; } }
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display: none; }
+  #logo {
+    left: 0px;
+    right: 0px;
+    margin: auto; }
+  #top {
+    height: auto;
+    padding: 120px 20px 0px; } }

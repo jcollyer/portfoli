@@ -12,39 +12,41 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
   <body>
-    <div id="navigation">
-      <div class="row">
-        <div class="col-md-4 col-xs-12">
-          <a href="#top" style="height:80px;display:block;"><img src="img/logo.png" id="logo" /></a>
-        </div>
-        <div class="col-md-8 col-xs-12">
-          <div id="links">
-            <li><a href="https://twitter.com/phatjc">twitter</a></li>
-            <li><a href="http://github.com/jcollyer/">github</a></li>
-            <li><a href="https://s3-us-west-2.amazonaws.com/occupation/portfolio-2015.pdf" class="special">resume</a></li>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div id="top">
       <div class="overlay"></div>
+      <img src="img/logo.png" id="logo" />
       <div class="row">
-        <div id="top-text" class="hide-mobile col-md-6">
-          I'm Jeremy, i write JavaScript<br>all day. Sometimes i add HTML<br>and CSS to make it pretty :)
-        </div>
-        <div class="col-md-6">
-          <figure>
-            <div class="carousel dissolve">
-              <div class="items">
-                  <img class="item" src="img/gopro.jpg" alt="jeremy collyer's gopro project">
-                  <img class="item" src="img/nate.jpg" alt="jeremy collyer's nate project">
-                  <img class="item" src="img/scaphon.jpg" alt="jeremy collyer's scaphon project">
-                  <img class="item" src="img/pas.jpg" alt="jeremy collyer's plant a seed project">
-               </div>
+
+        <div class="hide-mobile">
+
+
+          <div id="navigation" class="col-xs-12">
+            <div id="links">
+              <li><a href="https://twitter.com/phatjc">twitter</a></li>
+              <li><a href="http://github.com/jcollyer/">github</a></li>
+              <li><a href="https://s3-us-west-2.amazonaws.com/occupation/portfolio-2015.pdf" class="special">resume</a></li>
             </div>
-          </figure>
-        </div>
+          </div>
+
+          <div id="space" class="col-md-12"></div>
+
+          <div id="top-text" class="col-md-6">
+            I'm Jeremy, i write JavaScript<br>all day. Sometimes i add HTML<br>and CSS to make it pretty :)
+          </div>
+          <div class="col-md-6">
+            <figure>
+              <div class="carousel dissolve">
+                <div class="items">
+                    <img class="item" src="img/gopro.jpg" alt="jeremy collyer's gopro project">
+                    <img class="item" src="img/nate.jpg" alt="jeremy collyer's nate project">
+                    <img class="item" src="img/scaphon.jpg" alt="jeremy collyer's scaphon project">
+                    <img class="item" src="img/pas.jpg" alt="jeremy collyer's plant a seed project">
+                 </div>
+              </div>
+            </figure>
+          </div>
+
+        </div><!-- end hide-mobile -->
       </div>
     </div>
 
