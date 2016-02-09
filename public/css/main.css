@@ -88,7 +88,7 @@ h4 {
     height: 80px; }
   #top #top-text {
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
     text-align: right;
     padding: 40px 0px 30px; }
 
@@ -154,6 +154,12 @@ h4 {
       color: #66d7ff; }
       #projects .project-item a:hover {
         color: #337ab7; }
+    #projects .project-item h4 {
+      font-size: 14px;
+      color: #ddd;
+      line-height: 0.5em; }
+    #projects .project-item h5 {
+      color: white; }
 
 .bar {
   background: #3E4246;

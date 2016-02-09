@@ -99,7 +99,7 @@ h4 {
   #space {height:80px;}
   #top-text {
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
     text-align: right;
     padding: 40px 0px 30px;
   }
@@ -181,6 +181,14 @@ h4 {
         color: #337ab7;
       }
     }
+    h4 {
+      font-size: 14px;
+      color: #ddd;
+      line-height: 0.5em;
+    }
+    h5 {
+      color: white;
+    }
   }
 }
 
@@ -209,5 +217,3 @@ h4 {
   #logo {left:0px;right:0px;margin:auto;}
   #top{height:auto;padding:120px 20px 0px;}
 }
-
-
